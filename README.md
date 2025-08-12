@@ -47,15 +47,18 @@ PORT=8000
 DATABASE_URL=postgresql://user:pass@host:port/dbname
 
 Запуск
+
 Через webhook (production)
 uvicorn main:fastapi_app --host 0.0.0.0 --port 8000
 
 Локально (polling, для тесту)
+
 Потрібно змінити запуск у коді на:
 telegram_app.run_polling()
 та не використовувати FastAPI.
 
 Примітки
+
 Для роботи потрібен файл db.py з функціями, які викликає main.py.
 
 Якщо інтеграція з Instagram не потрібна — можна видалити імпорти та виклики, що стосуються Instagram.
