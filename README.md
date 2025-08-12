@@ -30,7 +30,7 @@
 
 ## Встановлення
 1. Клонувати репозиторій:
-git clone https://github.com/YOUR_GITHUB_USERNAME/store-telegram-bot.git
+git clone https://github.com/Zapchasti69/store-telegram-bot.git
 cd store-telegram-bot
 
 Встановити залежності:
