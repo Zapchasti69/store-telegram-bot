@@ -1,7 +1,6 @@
 import os
 import logging
 import random
-import string
 from dotenv import load_dotenv
 from telegram import (
     Update,
